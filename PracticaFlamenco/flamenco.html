@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flamenco</title>
+    <link rel="stylesheet" href="estilos/estiloFlamenco.css" >
+   <style>
+       body {
+           background-image: url(imagenes/fondoFlamenco.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-attachment: fixed;width: 100%;height: 100%;
+        ;}
+    
+        header {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+        
+    .textoHeader{
+        margin-top: 2em ; 
+        margin-left: 2em;  
+        margin-right: 2em;
+
+        width: 20em;;
+    }
+    .publicidadHeader{
+        text-align: right;
+        
+        margin-top: 2em;
+    }
+
+     .imagenHeader{text-align: left;
+           
+            text-align: center;
+            padding: 5px;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+}
+    .Anuncio:hover{
+        background-color: black;
+        color: blanchedalmond;}
+
+    .Cuadro_anuncios img{
+        border: 2px;
+        border-radius: 150px;
+        width: 200px;
+        height: 200px;}
+    .Cuadro_anuncios{text-align:center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 50px;
+        
+
+    }
+    article{border-style: solid;
+            border-color: red;
+            align-content: center;
+            padding: 50px;
+
+    }
+        .textoAnuncio{
+            text-align:center ;
+            color: red;}
+   
+   </style>
+   
+
+
+
+</head>
+<body>
+   <div class="paginaCompleta">
+       <header>
+           <div class="imagenHeader">
+                <img src="imagenes/Flamenco-header.jpg">
+           </div>
+           <div class="textoHeader">
+                <h1> 18 de Noviembre Dia Mundial del Flamenco</h1>
+           </div>
+           <div class="publicidadHeader">
+                <img src="imagenes/andaluciaLogo.png">
+            </div>
+       </header>
+        <section class="Cuadro_anuncios" >
+
+            <article class="Anuncio">
+                <div class=cabezaAnuncio>
+                    <img src="imagenes/israelFernandez.jpeg" alt="israelFernandez" >
+                </div>
+                <div class="textoAnuncio">
+                    <p> Nuevos valores </p>
+                </div>
+            </article>
+
+            <article class="Anuncio">
+                <div class=cabezaAnuncio>
+                    <img src="imagenes/Manuel-Morao.jpg" alt="Manuel-Morao" >
+                </div>
+                <div class="textoAnuncio">
+                    <p> El mejor cataor del 2021 </p>
+                </div>
+            </article>
+
+            <article class="Anuncio">
+                <div class=cabezaAnuncio>
+                    <img src="imagenes/camaron.jpeg" alt="camaron" >
+                </div>
+                <div class="textoAnuncio">
+                    <p> Leyenda </p>
+                </div>
+            </article>
+
+        </section>
+
+
+   </div>
+</body>
+</html>

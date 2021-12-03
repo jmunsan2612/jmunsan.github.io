@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estiloMenu.css" media="screen" /> 
+    <title>Document</title>
+    <style>
+        body {padding: 10px;}
+        h1 {text-align: center;}
+        .horizontal {
+            background-color: goldenrod;
+            padding: 15px; 
+            padding-top: 15px;
+            padding-bottom: 45px; 
+            margin-bottom: 25px;
+        }
+        .horizontal ul {
+            clear: both;
+            float: left;
+            width: 100%;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border-left: 1px solid #7C7C7C;
+        
+        }
+        .horizontal li {
+            float: left;
+        }
+        .horizontal li a {
+            background-color: whitesmoke;
+            color: black; 
+            text-decoration: none; 
+            display: block; 
+            padding: 5px;
+            border-top: 1px solid #7C7C7C;
+            border-right: 1px solid #7C7C7C;
+            border-bottom: 1px solid #7C7C7C;
+        }
+        .horizontal li a:hover {
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+        .vertical {
+            background-color: rgb(70, 253, 214);
+            padding: 15px;
+        }
+        .vertical ul {
+            width: 180px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #7C7C7C;
+            border-bottom: none;
+        }
+        .vertical li {
+            border-bottom: 1px solid #7C7C7C;
+            border-top: 1px solid #FFF;
+            background: #F4F4F4
+        }
+        .vertical li a {
+            padding: .2em 0 .2em .5em;
+            display: block;
+            text-decoration: none;
+            color: #333;
+        }
+        .vertical li a:hover {
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> menu css </h1>
+    </header>
+
+    <nav class="horizontal">
+        <ul>
+            <li><a href="#" title="Enlace genérico">Elemento 1</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 2</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 3</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 4</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 5</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 6</a></li>
+        </ul>
+    </nav>
+
+    <nav class="vertical">
+        <ul>
+            <li><a href="#" title="Enlace genérico">Elemento 1</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 2</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 3</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 4</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 5</a></li>
+            <li><a href="#" title="Enlace genérico">Elemento 6</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
