@@ -1,0 +1,101 @@
+{
+    box-sizing: border-box;
+}
+
+.contenedorCabecera{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.932);
+    align-items: center;
+    
+}
+.imagenCabecera{
+    margin-left: 0%;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+    
+   
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+   
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+    padding: 0px;
+    margin-left: 15px;
+    
+    
+}
+.menu li a:hover{
+    color: red;
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.informacion{
+    margin-left: 150px;
+    padding: 5px;
+    
+    
+}
+.informacion :hover{
+    background-color: rgb(0, 81, 128);
+    visibility: hidden;
+}
+.texto{
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.texto:hover{
+    color: rgba(0, 0, 0, 0.925);
+}
+    color: black
+]
+.final{
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 50px;
+    
+}
+.col_primera{
+    color: rgba(255, 255, 255, 0.774);
+    text-decoration: underline;
+    padding-right: 400px;
+    position: relative;
+    right: 50px;
+    top:20px;
+    
+}
+.ciudad{
+    color: rgba(255, 255, 255, 0.863);
+    text-decoration: underline;
+    padding-right: 400px;
+}
+.datos{
+    color: gray;
+    
+}
+.direccion{
+    color: gray;
+}
+.direccion:hover{
+    color: red;
+}
