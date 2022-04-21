@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Trabajo rss</title>
+        <link>https://github.com/jmunsan2612/jmunsan2612.github.io/blob/main/index.html</link>
+        <description>El Github</description>
+        <item>
+            <title>Flamenco</title>
+            <link>https://jmunsan2612.github.io/PracticaFlamenco/flamenco.html</link>
+            <description>html</description>
+        </item>
+
+        <item>
+            <title>layout</title>
+            <link>https://jmunsan2612.github.io/layout.html</link>
+            <description>html</description>
+        </item>
+
+        <item>
+            <title>menu</title>
+            <link>https://jmunsan2612.github.io/menuCSS.html</link>
+            <description>css</description>
+        </item>
+    </channel>
+</rss>
