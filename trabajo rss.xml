@@ -21,5 +21,17 @@
             <link>https://jmunsan2612.github.io/menuCSS.html</link>
             <description>css</description>
         </item>
+        
+        <item>
+            <title>Recuperacion de css</title>
+            <link>https://jmunsan2612.github.io/RECUPERACION.css/recuperacion.html</link>
+            <description>css</description>
+        </item>
+        
+        <item>
+            <title>practica libre</title>
+            <link>https://jmunsan2612.github.io/pagina_principal.html</link>
+            <description>html</description>
+        </item>
     </channel>
 </rss>
